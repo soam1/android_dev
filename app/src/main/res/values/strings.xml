@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">HouseMartApplication</string>
+    <string name="login">LOGIN</string>
+    <string name="number_hint">Mobile number</string>
+    <string name="password_hint">Password</string>
+    <string name="new_user_sign_up_here">New user? Register here</string>
 </resources>
