@@ -1,6 +1,7 @@
-package com.example.housemartapplication.login
+package com.example.housemartapplication.auth.login
 
 import android.content.Intent
+import android.content.pm.ActivityInfo
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
@@ -9,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.housemartapplication.R
-import com.example.housemartapplication.register.RegisterActivity
+import com.example.housemartapplication.auth.register.RegisterActivity
 
 class LoginActivity : AppCompatActivity() {
     lateinit var passwordLoginEdtText: EditText
@@ -20,7 +21,8 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_login)
-
+        //for now locking the orientation of the login activity
+        requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_PORTRAIT
         /*
         //unnecesary for now
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
