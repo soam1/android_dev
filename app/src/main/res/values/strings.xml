@@ -4,4 +4,6 @@
     <string name="number_hint">Mobile number</string>
     <string name="password_hint">Password</string>
     <string name="new_user_sign_up_here">New user? Register here</string>
+    <string name="i_want_to_buy">I want to buy</string>
+    <string name="i_am_a_vendor">I am a vendor</string>
 </resources>
